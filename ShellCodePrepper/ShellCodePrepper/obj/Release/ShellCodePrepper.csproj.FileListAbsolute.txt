@@ -1,0 +1,7 @@
+D:\SecToolDev\ShellCodePrepper\ShellCodePrepper\ShellCodePrepper\bin\Release\ShellCodePrepper.exe.config
+D:\SecToolDev\ShellCodePrepper\ShellCodePrepper\ShellCodePrepper\bin\Release\ShellCodePrepper.exe
+D:\SecToolDev\ShellCodePrepper\ShellCodePrepper\ShellCodePrepper\bin\Release\ShellCodePrepper.pdb
+D:\SecToolDev\ShellCodePrepper\ShellCodePrepper\ShellCodePrepper\obj\Release\ShellCodePrepper.csproj.AssemblyReference.cache
+D:\SecToolDev\ShellCodePrepper\ShellCodePrepper\ShellCodePrepper\obj\Release\ShellCodePrepper.csproj.CoreCompileInputs.cache
+D:\SecToolDev\ShellCodePrepper\ShellCodePrepper\ShellCodePrepper\obj\Release\ShellCodePrepper.exe
+D:\SecToolDev\ShellCodePrepper\ShellCodePrepper\ShellCodePrepper\obj\Release\ShellCodePrepper.pdb

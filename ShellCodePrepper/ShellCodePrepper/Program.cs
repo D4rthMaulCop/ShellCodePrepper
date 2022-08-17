@@ -45,7 +45,7 @@ namespace ShellCodeConverter
                 Console.WriteLine("[*] Xor'ed shellcode:\n");
                 Console.WriteLine(ByteArrayToString(xoredShellCode));
 
-                Console.WriteLine("\n[*] Copying shellcode to clipboard...");
+                Console.WriteLine("\n[*] Copyied shellcode to clipboard!");
                 Clipboard.SetText(ByteArrayToString(xoredShellCode));
             }
             catch (FileNotFoundException)

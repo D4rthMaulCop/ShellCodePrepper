@@ -32,13 +32,13 @@ namespace ShellCodeConverter
                 string path = args[0].ToString();
                 string key = args[1].ToString();
                 byte[] fileBytes = File.ReadAllBytes(path);
-                Console.WriteLine($"[*] Xor'ing shellcode from {path} with key {key}...");
-                Console.WriteLine("[*] Hit enter to continue...");
+                Console.WriteLine($"[+] Xor'ing shellcode from {path} with key {key}...");
+                Console.WriteLine("[+] Hit enter to continue...");
                 Console.ReadKey();
                 byte[] xoredShellCode = Xor(fileBytes, key);
-                Console.WriteLine("[*] Xor'ed shellcode:\n");
+                Console.WriteLine("[+] Xor'ed shellcode:\n");
                 Console.WriteLine(ByteArrayToString(xoredShellCode));
-                Console.WriteLine("\n[*] Copyied shellcode to clipboard!");
+                Console.WriteLine("\n[+] Copyied shellcode to clipboard!");
                 Clipboard.SetText(ByteArrayToString(xoredShellCode));
             }
             catch (FileNotFoundException)
